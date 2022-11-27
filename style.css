@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+:root {
+
+
+    --backgorund-color: #0073ffbc;
+    --nav-button-color: aqua;
+
+
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Nerko One', cursive;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+/*
+-------icons-------------
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+
+.material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+} */
+
+
+.container--nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100vw;
+    padding: 10px 80px;
+    background-color: var(--backgorund-color);
+    
+    
+}
+
+.container--navbar-wrapper{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    padding: 2px;
+    margin-left: 20px;
+
+
+}
+
+.container--navbar-figure{
+    padding: 5px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container--navbar-figure-logo{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px black;
+    margin-right: 25px;
+    
+}
+
+.container--navbar-h1{
+    
+    align-items: center;
+    font-weight: 700;
+    font-family: 'Nerko One', cursive;
+    text-decoration: dotted;
+    color: rgb(0, 51, 255);
+}
+
+.container--navlinks-wrapper{
+    padding: 5px;
+}
+
+.container--navlinks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    
+
+}
+
+.container--navlinks--ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.container--navlinks--li{
+    margin-right: 60px;
+    list-style: none;
+    border: 2px solid black;
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: var(--nav-button-color);
+    
+}
+
+.container--navlinks--a{
+    text-decoration: none;
+}
+
+
+
+
