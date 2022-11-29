@@ -14,7 +14,7 @@
 
 
 * {
-    padding: 0px;
+    padding: 0px; 
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Nerko One', cursive;
@@ -106,52 +106,78 @@
 }
 
 
-/* --------body main section ------------ */
 
-.container--main{
-    background-color: var(--backgorund-color);
-    height: 75vh;
-    border: 5px solid black;
+
+/* *************main section**************** */
+
+.container--main-gallery-pics-dsg-area-1{
+    height: 50%;
+    width: 20%;
+    
+    
+}
+
+.container-main{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 90px;
+    background-color: var(--backgorund-color);
+    padding: 2%;
+    
+    
 
 }
+.container--main-gallery-section{
+    
 
-.container--main-wrapper{
-    border: 2px solid black;
-    /* display: flex;
+    
+}
+.container--main-gallery-section-h1{
+    display: flex;
     justify-content: center;
-    align-items: center; */
-    padding: 120px 90px;
-    border-radius: 20px;
-    box-shadow: 2px 5px 20px black;
-    background-color: var(--home-section-bck-color);
-}
-.container--main-header{
-    text-align: center;
-    padding: 100px 80px;
+    
+    
+    
 
 }
-.container--main-header-h1{
-    margin-bottom: 30px;
+.container--main-gallery-section-wrapper{
+    background-color: var(--nav-footer-bck-color);
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
 
 }
-.container--main-header-h2{
-    margin-bottom: 50px !important;
-}
-
-.container--mainlinks--a{
-    border: 2px solid black;
-    padding: 20px 70px;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 26px;
-    background-color: var(--nav-button-color);
-    border-radius: 26px;
+.container--main-gallery-section-wrapper-main{
+    padding: 0;
+    margin: 0;
+    
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************footer section**************** */
 
 
 
@@ -185,18 +211,6 @@
     margin-bottom: 20px;
     border-radius: 20px;
 }
-
-
-/* .container--footer-secondanry-icons{
-    display: grid;
-    grid-template-columns: 1fr;
-    
-    
-    
-}
-.fa-location-dot{
-    margin-bottom: 25px;
-} */
 
 .container--footer-secondanry-icons-1{
     margin-bottom: 30px;
